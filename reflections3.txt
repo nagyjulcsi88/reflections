@@ -4,4 +4,8 @@ When I will work from several computers or several or with other people.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-Because I might not need all the files which are on GitHUB.
+Because I might not need all the files which are on GitHub.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are clones(copies) on GitHub. Clones are eather local copies or a copy from a url. Branches are different versions of the file. When I work of someone GitHub project that I like but I want to create my own version, I will create a fork, in this case the relation will be public. When I need to make a copy of certain files on my computer, I use clone. If I want create another version or try a new feature on my prohect, I will create a new branch within my repository.
