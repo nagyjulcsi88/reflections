@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+I regroup the files I have in a certain directory in order to have a .git file created.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+The staging area allows to put together more than one files before commiting them. It allows to logically put together files that belong together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+"get diff" shows the difference between working directory and staging area while "get diff --staged" shows the difference between staging area and the latest comit. After adding a file to the staging area, this file won't show up for the "get diff" command. It can help us to decide wheter we really need the changes in certain files or not. Git reset --hard means that I ignore any changes that were made on files and were not commited.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I work on different versions of the project or I would like to try out something new but don't want to lose the original version. Branches let us create alternative versions.
+
+How do the diagrams help you visualize the branch structure?
+
+It helps us to visualize like a timeline which commits were made quite simultaineously on different braches. It shows us which commits are not related and if there is a commit that is detached from the head, so isn't accessible as it is not part of a branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+It becomes a mixture of the two branches, including everything new and without the lines that only available in one of the branches. We represent it like thos, become from now on, it will become one line with two parent lines.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Automatic merging saves up time.
