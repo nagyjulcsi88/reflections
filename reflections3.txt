@@ -12,7 +12,22 @@ Forks are clones(copies) on GitHub. Clones are eather local copies or a copy fro
 
 4. What is the benefit of having a copy of the last known state of the remote stored locally?
 
+5. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+I would make a sepate branch when I am not sure if my collaborators agree with this change. It allows to everyone who is working on the project to have a look on the future change, comment itetc before we merge into master. However, it is a time-consuming option and I would only use it if I am not working on my own or if we can't discuss it in live.
+
 To be able to work offline. The next push will also be less heavy.It allowy you to see the latest changes more quickly.
 
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I would explain with words what are the new changes and send the new files by mail. It would be easier to get into a confusion of the versions.
+
+
+Commands:
+
+git remote  |    Show all remote locations for the repository
+git remote add origin url |     Add a new remote location for the repository. Origin is the default name to use when you create only one remote location. Url should be the https url to the github repository.
+git remove -v  |    Outputs the remote locations with verbose information (fetch and push urls)
+git push origin master  |    Push the master branch to the remote location origin.
+git pull origin master  |    Get the master branch from the remote location origin.
+git pull origin master  |    = Git fetch origin + git merge master origin/master
+git fetch origin  |    Get the changes from the remote location into the (hidden?) origin/master branch
