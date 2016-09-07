@@ -26,3 +26,18 @@ If I make a mistake, I can still find where the problem was made and go back to 
 7) How Do You Want to Use Git? test
 
 I would like to use it with my projects  to be able to work together with my family memebers.
+
+Commands:
+
+q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
+git init  |  to initalize a new git repository
+
+cd   | going somewhere in the directory
+cd ..  | going to upper directory
+cd --  | going to the uppest directory
